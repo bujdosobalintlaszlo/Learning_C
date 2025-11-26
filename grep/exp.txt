@@ -1,0 +1,20 @@
+$ grep 
+usage grep PATTERN [file...]
+$ grep xyz file1 file2
+
+ahol a minta elofordul azt a sort kiirja a stenderd outputra (stdout)
+
+implementalando:
+grep argumentumaban meg lehet adni 0 vagy tobb filenevet adni 
+(ha 0 akkor stdin-rol olvasunk)
+
+flag implementalas:
+-i case insensitiven elofordulasok barmilyen kis-nagy betu kombinacioval
+-w reverse (azokat a sorokat irom ki ahol nem volt talalat)
+lehessen:
+-i
+-w
+-i -v 
+-vi 
+-i -v 
+-v -i
