@@ -1,0 +1,6 @@
+The task: Implement hexadump
+
+On the left side we are going to get the index of the startter character in form of an hexadecimal number. After that it prints hexa-decimal characters (16 of them) then the text.The undisplayable characters will be represented by . (For examp.: space,ctrl,new line...).
+
+At calling if we don't give parameter we will work from the stdin. In this case we work till EOF.
+If we get a file which is valid and exists we will work with that.
